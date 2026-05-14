@@ -18,10 +18,12 @@
 
 **Requirements**: TS-1, TS-6
 
-**Plans**:
-- [ ] 1.1 — Makefile system modular reutilizável (`ecosystem/build-system/`)
-- [ ] 1.2 — Templates de módulos e padrões de documentação (`ecosystem/templates/`, `ecosystem/standards/`)
-- [ ] 1.3 — README do ecossistema com mapa de módulos e learning path inicial
+**Plans**: 3 plans
+
+Plan files:
+- [ ] 01-01-PLAN.md — Build system modular reutilizavel em `ecosystem/build-system/`
+- [ ] 01-02-PLAN.md — Standards e templates em `ecosystem/standards/`
+- [ ] 01-03-PLAN.md — Onboarding e mapa do ecossistema em `README.md` e `docs/`
 
 **Success Criteria**:
 - `make` compila qualquer módulo com `include $(ROOT)/ecosystem/build-system/module.mk`

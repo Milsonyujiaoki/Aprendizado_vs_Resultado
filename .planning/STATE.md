@@ -8,8 +8,8 @@
 
 - **Milestone**: 1 — Foundation + Ecosystem Bootstrap
 - **Phase**: 2 — libft: libc do Zero
-- **Status**: `phase-1-complete`
-- **Next action**: `/gsd-plan-phase 2`
+- **Status**: `planned-ready-to-execute`
+- **Next action**: `/gsd-execute-phase 2`
 
 ---
 
@@ -20,9 +20,9 @@
 Goal: Implementar as funcoes fundamentais de libc para construir entendimento profundo de memoria e strings em C.
 
 Plans pending:
-- [ ] 2.1 — Memory functions: `ft_memset`, `ft_memcpy`, `ft_memmove`, `ft_bzero` + testes
-- [ ] 2.2 — String functions: `ft_strlen`, `ft_strcpy`, `ft_strcat`, `ft_strcmp`, `ft_strdup` + testes
-- [ ] 2.3 — Conversion + I/O: `ft_atoi`, `ft_itoa`, `ft_printf` educacional + testes
+- [ ] 02-01-PLAN.md — Base contratual + memory primitives + testes iniciais
+- [ ] 02-02-PLAN.md — Categoria string completa + strsplit + testes
+- [ ] 02-03-PLAN.md — Conversao, printf (width/precision), allocator e INTERNALS
 
 ---
 
@@ -62,7 +62,9 @@ Os planos da Phase 1 ja foram gerados em `.planning/phases/01-ecosystem-infrastr
 O proximo passo e executar a fase com `/gsd-execute-phase 1`.
 Phase 1 foi concluida com summaries em `.planning/phases/01-ecosystem-infrastructure/`.
 O proximo passo e planejar a fase 2 com `/gsd-plan-phase 2`.
+Contexto e planos da fase 2 foram gerados em `.planning/phases/02-libft-libc-do-zero/`.
+O proximo passo e executar a fase com `/gsd-execute-phase 2`.
 
 ---
 
-*Last updated: 2026-05-13 — Execucao da Phase 1 concluida*
+*Last updated: 2026-05-13 — Planejamento da Phase 2 concluido*

@@ -32,16 +32,18 @@ Plan files:
 
 ---
 
-### Phase 2 — libft: libc do Zero
+### Phase
 
 **Goal**: Implementar as funções fundamentais de libc para construir entendimento profundo de memória e strings em C.
 
 **Requirements**: TS-2
 
-**Plans**:
-- [ ] 2.1 — Memory functions: `ft_memset`, `ft_memcpy`, `ft_memmove`, `ft_bzero` + testes
-- [ ] 2.2 — String functions: `ft_strlen`, `ft_strcpy`, `ft_strcat`, `ft_strcmp`, `ft_strdup` + testes
-- [ ] 2.3 — Conversion + I/O: `ft_atoi`, `ft_itoa`, `ft_printf` educacional + testes
+**Plans**: 3 plans
+
+Plan files:
+- [ ] 02-01-PLAN.md — Base contratual + memory primitives + testes iniciais
+- [ ] 02-02-PLAN.md — Categoria string completa + strsplit + testes
+- [ ] 02-03-PLAN.md — Conversao, printf (width/precision), allocator e INTERNALS
 
 **Success Criteria**:
 - 100% das funções implementadas com testes passando

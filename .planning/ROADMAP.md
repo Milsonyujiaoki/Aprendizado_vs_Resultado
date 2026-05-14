@@ -21,9 +21,9 @@
 **Plans**: 3 plans
 
 Plan files:
-- [ ] 01-01-PLAN.md — Build system modular reutilizavel em `ecosystem/build-system/`
-- [ ] 01-02-PLAN.md — Standards e templates em `ecosystem/standards/`
-- [ ] 01-03-PLAN.md — Onboarding e mapa do ecossistema em `README.md` e `docs/`
+- [x] 01-01-PLAN.md — Build system modular reutilizavel em `ecosystem/build-system/`
+- [x] 01-02-PLAN.md — Standards e templates em `ecosystem/standards/`
+- [x] 01-03-PLAN.md — Onboarding e mapa do ecossistema em `README.md` e `docs/`
 
 **Success Criteria**:
 - `make` compila qualquer módulo com `include $(ROOT)/ecosystem/build-system/module.mk`

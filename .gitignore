@@ -1,0 +1,54 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+
+# Debug builds
+*_debug
+*_test_bin
+
+# Dependency directories
+node_modules/
+vendor/
+
+# IDE / Editor
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.cache
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Go
+/bin/
+/pkg/
+
+# Benchmark output
+*.bench
+benchmarks/results/
+
+# Coverage
+*.gcda
+*.gcno
+coverage/

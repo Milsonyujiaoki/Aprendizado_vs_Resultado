@@ -48,6 +48,40 @@ M4: Products       → SaaS, OSS, Enterprise
 
 ---
 
+## Bootstrap da Foundation
+
+### 1) Criar um modulo novo
+
+Use o template em `ecosystem/standards/MODULE_TEMPLATE.md` para iniciar um modulo com estrutura `src/include/tests`.
+
+### 2) Integrar no build-system compartilhado
+
+No Makefile do modulo, inclua:
+
+```make
+ROOT := ../..
+MODULE_NAME := nome_do_modulo
+SRC_DIR := src
+INCLUDE_DIR := include
+TEST_DIR := tests
+
+include $(ROOT)/ecosystem/build-system/module.mk
+```
+
+### 3) Comandos padrao
+
+- `make` para build da biblioteca
+- `make test` para executar testes
+- `make install PREFIX=$HOME/.local` para instalar headers e lib
+
+### 4) Standards obrigatorios
+
+- `ecosystem/standards/CODING_STANDARDS.md`
+- `ecosystem/standards/ADR_TEMPLATE.md`
+- `ecosystem/standards/INTERNALS_TEMPLATE.md`
+
+---
+
 ## Começando
 
 ```bash
